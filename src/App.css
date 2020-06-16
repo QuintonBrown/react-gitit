@@ -10,14 +10,15 @@ form {
 }
 .header {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 .github-profile {
   margin: 1rem;
+  display: inline;
 }
 .github-profile img {
-  width: 75px;
+  width: 200px;
 }
 .github-profile info {
   display: inline-block;
