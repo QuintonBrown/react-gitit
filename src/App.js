@@ -22,7 +22,9 @@ class Form extends React.Component {
   };
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <div>
+      <img src="./gitit.jpg" alt="Git It logo" className="hero"/>
+      <form onSubmit={this.handleSubmit} className="form">
         <input
           type="text"
           placeholder="Github username"
@@ -30,12 +32,13 @@ class Form extends React.Component {
           required
         />
         <button>Add card</button>
-      </form>
+        </form>
+        </div>
     );
   }
 }
 const CardList = (props) => (
-  <div>
+  <div className="profiles">
     {props.profiles.map((profile) => (
       <Card key={profile.id} {...profile} />
     ))}
