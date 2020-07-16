@@ -71,15 +71,7 @@ class App extends React.Component {
   }
 }
 
-//make text change colors randomly
-// class ConditionalStyle extends React.Component {
-//   render() {
-//     return (
-//       <div style={{
-//         color: Math.random() < 0.5 ? 'green' : 'red' }}>Look at me. I changed colors.</div>
-//     )
-//   }
-// }
+
 class Card extends React.Component {
   render() {
     const profile = this.props;
@@ -94,29 +86,6 @@ class Card extends React.Component {
     );
   }
 }
-// const App = ({ title }) => {
-//   return <div className="header">{title}</div>
-// }
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 export default App;
